@@ -6,6 +6,7 @@ a {
     font-size: larger;
 }
 
+
 a:hover {
     color: antiquewhite;
 }
@@ -34,7 +35,11 @@ button {
     border-color: antiquewhite;
     box-shadow: 3px -3px 15px rgb(67, 83, 97);
     margin-bottom: 0;
-    
+
+    color: rgb(68, 87, 168);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
 
 }
 

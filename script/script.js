@@ -1,10 +1,9 @@
-namespace Theory3 {
-    
+"use strict";
+var Theory3;
+(function (Theory3) {
     window.addEventListener("load", handleLoad);
-    
-    let buttonOne: HTMLElement;
-
-    function handleLoad(): void {
+    let buttonOne;
+    function handleLoad() {
         document.querySelector(".btnWOne")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWTwo")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWThree")?.addEventListener("mousedown", openWeekOne);
@@ -20,20 +19,32 @@ namespace Theory3 {
         document.querySelector(".btnWThirteen")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWFourteen")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWFifteen")?.addEventListener("mousedown", openWeekOne);
-
         document.querySelector(".btnWOne")?.addEventListener("onmouseenter", hoverWeekOne);
+        document.querySelector(".btnMainpage")?.addEventListener("onmouseenter", hoverMainpage);
+
         console.log("moin");
-        buttonOne = <HTMLElement>document.getElementById("btnWOne");
-
+        buttonOne = document.getElementById("btnMainpage");
     }
-
-    function openWeekOne(): void {
+    function openWeekOne() {
         window.location.href = "weekOne.html";
     }
-
-    function hoverWeekOne(): void {
+    function hoverWeekOne() {
         console.log("hover");
-
         buttonOne.style.color = "red";
     }
-}
+
+    function hoverMainpage() {
+        console.log("hover");
+        buttonOne.style.color = "red";
+    }
+
+
+
+
+
+
+
+
+
+})(Theory3 || (Theory3 = {}));
+//# sourceMappingURL=script.js.map
