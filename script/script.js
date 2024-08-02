@@ -20,10 +20,8 @@ var Theory3;
         document.querySelector(".btnWFourteen")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWFifteen")?.addEventListener("mousedown", openWeekOne);
         document.querySelector(".btnWOne")?.addEventListener("onmouseenter", hoverWeekOne);
-        document.querySelector(".btnMainpage")?.addEventListener("onmouseenter", hoverMainpage);
-
         console.log("moin");
-        buttonOne = document.getElementById("btnMainpage");
+        buttonOne = document.getElementById("btnWOne");
     }
     function openWeekOne() {
         window.location.href = "weekOne.html";
@@ -32,19 +30,5 @@ var Theory3;
         console.log("hover");
         buttonOne.style.color = "red";
     }
-
-    function hoverMainpage() {
-        console.log("hover");
-        buttonOne.style.color = "red";
-    }
-
-
-
-
-
-
-
-
-
 })(Theory3 || (Theory3 = {}));
 //# sourceMappingURL=script.js.map
