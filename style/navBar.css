@@ -9,6 +9,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.aNav:hover {
+    color: antiquewhite;
+}
+
 .dot {
     width: 8px;
     height: 8px;
@@ -20,6 +24,9 @@ a {
     background-color: white;
 }
 
+
+
+
 .aWrapper {
     display: inline-block;
     padding: 5px 8px;
@@ -27,6 +34,11 @@ a {
     position: relative;
     left: 15px;
     border-radius: 8px;
+}
+
+.aWrapper:hover {
+    background-color: rgb(162, 180, 231);
+    
 }
 
 .chapter {
@@ -38,6 +50,7 @@ a {
     background-color: black;
     transform-origin: 0 0;
     height: 2px;
+    
 }
 
 .navWeek {
@@ -51,28 +64,46 @@ a {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    margin-top: 100px;
+    
 }
 
 .idk {
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
+    padding-top: 0;
 }
 
 .content {
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 
 header {
     background-color: rgb(169, 199, 255);
     margin: 0%;
+    position: absolute;
 }
 
 body {
     padding: 0;
-    position: absolute;
+    position: relative;
 }
 
 h1 {
     margin: 0;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.dbdInterface {
+    width: 800px;
+}
+
+.phasmoInterface {
+    width: 800px;
 }
