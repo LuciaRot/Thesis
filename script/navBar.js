@@ -31,8 +31,8 @@ function handleLoad() {
             line = ele.querySelector(".line");
         }
         line.style.width = xChapter - xDot + "px";
-        line.style.left = xDot + "px";
-        line.style.top = yDot + "px";
+        line.style.left = xDot - 8 + "px";
+        line.style.top = yDot - 144 + "px";
     }
 }
 //# sourceMappingURL=navBar.js.map

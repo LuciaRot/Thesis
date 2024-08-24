@@ -9,6 +9,13 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.reference {
+    color: rgb(99, 107, 150);
+}
+div {
+    margin-top: 0;
+}
+
 .aNav:hover {
     color: antiquewhite;
 }
@@ -39,6 +46,10 @@ a {
 .aWrapper:hover {
     background-color: rgb(162, 180, 231);
     
+}
+
+#navWrapper {
+    min-width: 350px;
 }
 
 .chapter {
@@ -72,6 +83,8 @@ a {
     flex-direction: row;
     margin-top: 100px;
     padding-top: 0;
+    position: sticky;
+    left: 100px;
 }
 
 .content {
@@ -79,16 +92,7 @@ a {
     margin-right: 100px;
 }
 
-header {
-    background-color: rgb(169, 199, 255);
-    margin: 0%;
-    position: absolute;
-}
 
-body {
-    padding: 0;
-    position: relative;
-}
 
 h1 {
     margin: 0;
@@ -106,4 +110,9 @@ footer {
 
 .phasmoInterface {
     width: 800px;
+}
+
+img {
+    box-shadow: -3px 3px 15px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
 }
