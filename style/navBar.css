@@ -10,15 +10,15 @@ a {
 }
 
 .reference {
-    color: rgb(99, 107, 150);
+    color: rgb(78, 84, 119);
+    font-weight: bold ;
+
 }
 div {
     margin-top: 0;
 }
 
-.aNav:hover {
-    color: antiquewhite;
-}
+
 
 .dot {
     width: 8px;
@@ -43,9 +43,15 @@ div {
     border-radius: 8px;
 }
 
-.aWrapper:hover {
-    background-color: rgb(162, 180, 231);
+.aWrapper:hover  .aNav {
     
+    color: rgb(78, 84, 119);
+    font-size: smaller;
+    
+}
+
+.aWrapper:hover {
+    background-color:rgba(230, 226, 172, 0.253) ;
 }
 
 #navWrapper {
@@ -81,22 +87,25 @@ div {
 .idk {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 70px;
     padding-top: 0;
     position: sticky;
     left: 100px;
+   
 }
 
 .content {
-    margin-left: 200px;
+    margin-left: 50px;
     margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    background-color: rgba(230, 226, 172, 0.253);
 }
 
 
 
-h1 {
-    margin: 0;
-}
+
 footer {
     position: relative;
     bottom: 0;
@@ -113,6 +122,44 @@ footer {
 }
 
 img {
+    box-shadow: -3px 3px 15px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.title {
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+i {
+    font-size: small;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: normal;
+}
+footer {
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: rgb(139, 139, 139);
+}
+
+li {
+   
+ font-weight: bold;   
+
+}
+
+video {
+    width: 800px;
     box-shadow: -3px 3px 15px 0px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
 }

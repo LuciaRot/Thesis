@@ -32,7 +32,7 @@ function handleLoad() {
         }
         line.style.width = xChapter - xDot + "px";
         line.style.left = xDot - 8 + "px";
-        line.style.top = yDot - 144 + "px";
+        line.style.top = yDot - 208 + "px";
     }
 }
 //# sourceMappingURL=navBar.js.map
